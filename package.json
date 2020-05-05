@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-ignoble",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "ignoble is a noble node-red node allowing you to interact with your Bluetooth Low Energy devices",
   "keywords": [ "bluetooth", "ble", "bluetoothle", "low energy", "le", "iot", "internetofthings", "noble", "node-red", "nodered" ],
   "scripts": {
@@ -20,6 +20,6 @@
   },
   "dependencies": {
     "async": "^2.5.0",
-    "noble": "^1.8.1"
+    "noble": "@abandonware/noble": "^1.9.2-8"
   }
 }

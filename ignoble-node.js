@@ -1,5 +1,5 @@
-var noble = require('noble');
-var async = require('async');
+import noble from '@abandonware/noble';
+import async from 'async';
 
 module.exports = function(RED) {
 	function ScannerNode(config) {
